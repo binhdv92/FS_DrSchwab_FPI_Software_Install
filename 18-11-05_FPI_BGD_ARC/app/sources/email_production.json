@@ -1,0 +1,5 @@
+{
+    "production":   true,
+	"subject":      "Image var_site_plant var_alarm_id var_mode_flagBGD Breakage Alerts",
+	"from_address": "Image var_site_plant var_alarm_id BGD Breakage Alerts <Imagevar_site_plantvar_alarm_idBgdBreakageAlerts@firstsolar.com>"
+}

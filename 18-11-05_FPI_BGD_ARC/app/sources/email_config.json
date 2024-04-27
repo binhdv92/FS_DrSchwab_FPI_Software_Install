@@ -1,0 +1,59 @@
+{
+    "DMT1": {
+    "mode": "simulation",
+    "subject": "Image DMT1 CdCl BGD Breakage Alerts",
+    "from_address": "Image DMT1 CdCl BGD Breakage Alerts <ImageDMT1CdClBgdBreakageAlerts@firstsolar.com>", 
+    "to_addresses": [
+        "vanbinh.duong@firstsolar.com"
+    ]
+
+    },
+    "DMT2": {
+        "mode": "simulation",
+        "subject": "Image DMT2 CdCl BGD Breakage Alerts",
+        "from_address": "Image DMT2 CdCl BGD Breakage Alerts <ImageDMT2CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    },
+    "KMT1": {
+        "mode": "simulation",
+        "subject": "Image KMT1 CdCl BGD Breakage Alerts",
+        "from_address": "Image KMT1 CdCl BGD Breakage Alerts <ImageKMT1CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    },
+    "KMT2": {
+        "mode": "simulation",
+        "subject": "Image KMT2 CdCl BGD Breakage Alerts",
+        "from_address": "Image KMT2 CdCl BGD Breakage Alerts <ImageKMT2CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    },
+    "PGT1": {
+        "mode": "simulation",
+        "subject": "Image PGT1 CdCl BGD Breakage Alerts",
+        "from_address": "Image PGT1 CdCl BGD Breakage Alerts <ImagePGT1CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    },
+	"PGT12": {
+        "mode": "simulation",
+        "subject": "Image PGT12 CdCl BGD Breakage Alerts",
+        "from_address": "Image PGT12 CdCl BGD Breakage Alerts <ImagePGT1CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    },
+    "PGT2": {
+        "mode": "simulation",
+        "subject": "Image PGT2 CdCl BGD Breakage Alerts",
+        "from_address": "Image PGT2 CdCl BGD Breakage Alerts <ImagePGT2CdClBgdBreakageAlerts@firstsolar.com>", 
+        "to_addresses": [
+            "vanbinh.duong@firstsolar.com"
+        ]
+    }
+}

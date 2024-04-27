@@ -1,0 +1,56 @@
+{
+    "Latest" : """
+    SELECT		 
+        [ID]
+        ,[FpiSourcePath]
+        ,[ResultRootPath]
+        ,[SubIdCorrected]
+        ,[FlagFpiDestPath]
+        ,[FlagImagePath]
+        ,[FlagCAPath]
+        ,[FlagTraceabilityPath]
+        ,[ExtractSubId]
+        ,[ExtractFpiSize]
+        ,[ExtractAlarmName]
+        ,[ExtractSitePlant]
+        ,[ExtractEquipment]
+        ,[ExtractTimeStamp]
+        ,[ExtractIsDummyMode]
+        ,[TimeStamp]
+        ,[TimeStampUtc]
+        ,[ModifiedTimeStampUtc]
+FROM		[FAC].[dbo].[BgdBacklog]
+where		id = (
+            select  max(id) 
+            from    [FAC].[dbo].[BgdBacklog] 
+            where    SubIdCorrected is null
+        )
+    """
+}
+
+
+ById = f'''
+SELECT		 
+             [ID]
+            ,[FpiSourcePath]
+            ,[ResultRootPath]
+            ,[SubIdCorrected]
+            ,[FlagFpiDestPath]
+            ,[FlagImagePath]
+            ,[FlagCAPath]
+            ,[FlagTraceabilityPath]
+            ,[ExtractSubId]
+            ,[ExtractFpiSize]
+            ,[ExtractAlarmName]
+            ,[ExtractSitePlant]
+            ,[ExtractEquipment]
+            ,[ExtractTimeStamp]
+            ,[ExtractIsDummyMode]
+            ,[TimeStamp]
+            ,[TimeStampUtc]
+            ,[ModifiedTimeStampUtc]
+FROM		[FAC].[dbo].[BgdBacklog]
+where		id = (
+                {backlogSubid}
+            )
+''' 

@@ -1,0 +1,1 @@
+Driver={SQL Server};Server=var_site_plantMESSQLODS.FS.LOCAL;Database=ODS;Trusted_Connection=yes;
